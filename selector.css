@@ -1,0 +1,13 @@
+/* 자손 */
+.section1 p{
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+/* 자식 */
+.section2 > p{
+    color: blue;
+}
+section > p{
+    color: violet;
+}
